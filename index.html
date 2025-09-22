@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Gabel Science — geospatial datascience, automation, and custom software." />
+    <title>GabelScience</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath fill='%237aa300' d='M50 5l10 20 22 3-16 15 4 22-20-10-20 10 4-22L18 28l22-3z'/%3E%3C/svg%3E" />
+</head>
+<body>
+<!-- Header / Nav -->
+<header class="site-header container">
+    <a class="brand" href="#home" aria-label="Gabel Science home">
+    <span class="brand-mark" aria-hidden="true">G</span>
+    <span class="brand-text">GabelScience</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Toggle navigation">☰</button>
+    <nav id="nav" class="site-nav">
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- Hero with live video banner -->
+<section id="home" class="hero">
+    <div class="hero-media">
+        <video class="hero-video" autoplay muted loop playsinline preload="auto"
+        src="https://www.esri.com/content/dam/esrisites/en-us/arcgis/about-arcgis/images/about-arcgis-hero-video.mp4"></video>
+        <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content container">
+        <h1>custom spatial data science, automation stand-up, and custom software</h1>
+        <p>Applied Spatial Analysis at scale — analysis pipelines, automation, and clean map products.</p>
+    <div class="cta-row">
+    <a class="btn btn-primary" href="https://github.com/" target="_blank" rel="noopener">View GitHub</a>
+    <a class="btn btn-ghost" href="#contact">Get in touch</a>
+    </div>
+    </div>
+</section>
+
+
+<!-- Simple Content -->
+<main class="container">
+    <section id="work" class="card-grid">
+        <article class="card">
+            <h2>Flood Risk & hydrology</h2>
+            <p>Raster tiling, block‑wise compute, and memory‑efficient GDAL/ArcGIS workflows.</p>
+        </article>
+        <article class="card">
+                <h2>Automation</h2>
+                <p>End‑to‑end pipelines (ArcPy, GDAL, Pandas/GeoPandas) with robust logging and CI.</p>
+                </article>
+                <article class="card">
+                <h2>Maps & delivery</h2>
+                <p>Tilesets, FGDB/GPKG packaging, and accessible web maps.</p>
+            </article>
+    </section>
+
+
+<section id="about" class="about">
+<h2>About</h2>
+<p>Gabel Science builds practical geospatial systems: performant raster ops, clean vector data, and repeatable packaging.</p>
+</section>
+
+
+<section id="contact" class="contact">
+<h2>Contact</h2>
+<p>Email: <a href="mailto:hello@gabelscience.com">hello@gabelscience.com</a></p>
+</section>
+</main>
+
+
+<footer class="site-footer">
+<div class="container">
+<small>© <span id="year"></span> Gabel Science. All rights reserved.</small>
+</div>
+</footer>
+
+
+<script src="assets/script.js" defer></script>
+</body>
+</html>
